@@ -10,7 +10,7 @@
       <script>
         let value01_01 = document.getElementById('math01_01');
 	let value01_02 = document.getElementById('math01_02');
-	document.getElementById('btn01').addEventListener('keyup',function() {
+	document.addEventListener('keyup',function() {
 		var result01 = parseInt(value01_01.value)  + parseInt(value01_02.value) ;
 		document.getElementById('result01').textContent = result01;
 	});
