@@ -1,8 +1,18 @@
 <!doctype html>
 <html>
   <body>
-    <script>
-      document.write(kon)
-    </script>
+    <form>
+      <p id="1">2</p>
+      <p id="2">2</p>
+      <p id="3"></p>
+      <script>
+        let r1 = document.getElementById('1');
+        let r2 = document.getElementById('2');
+        document.addEventListener('keyup',function() {
+          var res = parseInt(1.value)  * parseInt(2.value) ;
+          document.getElementById('3').textContent = res ;
+        });
+      </script>
+    </form>
   </body>
 </html>
