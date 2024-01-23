@@ -4,8 +4,12 @@
 		<form oninput="result.value=parseInt(a.value)*parseInt(b.value)">
 			<input type="number" id="b" value="10" /> +
 			<input type="number" id="a" value="10" /> =
-			<output name="result" for="a b">
+			<output for="a b">
+				<form oninput="result.value=parseInt(c.value)*parseInt(d.value)">
 				<input type="number" id="c">
+				<input type="number" id="d">
+				<output for="c d"></output>
+				</form>
 			</output>
 		</form>
 	</body>
