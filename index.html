@@ -2,17 +2,14 @@
 <html>
   <body>
     <form>
-      		<dl class="p-card">
-		<dt class="p-card_dt"><input type="text" id="math01_01" class="p-input_text"><span class="p-text_plus">+</span><input type="text" id="math01_02" class="p-input_text"></dt>
-		<dd class="p-card_button"><input id="btn01" class="p-input_button" type="button" value="計算"></dd>
-		<dd class="p-card_content">答えは<span id="result01" class="p-span_result"></span>です</dd>
-	</dl>
+	    <input type="text" id="a"><input type="text" id="b">
+	    <span id="c" class="p-span_result"></span>
       <script>
-        let value01_01 = document.getElementById('math01_01');
-	let value01_02 = document.getElementById('math01_02');
+        let a = document.getElementById('a');
+	let b = document.getElementById('b');
 	document.addEventListener('keyup',function() {
-		var result01 = parseInt(value01_01.value)  + parseInt(value01_02.value) ;
-		document.getElementById('result01').textContent = result01;
+		var c = parseInt(a.value)  + parseInt(b.value) ;
+		document.getElementById('c').textContent = c;
 	});
       </script>
     </form>
