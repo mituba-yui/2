@@ -1,17 +1,12 @@
 <!doctype html>
 <html>
-  <body>
-    <form>
-	    <input type="text" id="a"><input type="text" id="b">
-	    <input id="c"></span>
-      <script>
-        let a = document.getElementById('a');
-	let b = document.getElementById('b');
-	document.addEventListener('keyup',function() {
-		var c = parseInt(a.value)  + parseInt(b.value) ;
-		document.getElementById('c').textContent = c;
-	});
-      </script>
-    </form>
-  </body>
+	<body>
+		<form oninput="result.value=parseInt(a.value)*parseInt(b.value)">
+			<input type="number" id="b" value="10" /> +
+			<input type="number" id="a" value="10" /> =
+			<output name="result" for="a b">
+				<input type="number" id="c">
+			</output>
+		</form>
+	</body>
 </html>
