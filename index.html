@@ -2,92 +2,103 @@
 <html>
 	<body>
 		<center>
-		<form>
-			<input type="text" id="A"><br>
-			<span id="a"></span><br>
-			<span id="b"></span><br>
-			<span id="c"></span><br>
-			<span id="d"></span><br>
-			<span id="e"></span><br>
-			<span id="f"></span><br>
-			<span id="g"></span><br>
-			<span id="h"></span><br>
-			<span id="i"></span><br>
-			<span id="j"></span><br>
-			<span id="k"></span><br>
-			<span id="l"></span><br>
-			<span id="m"></span><br>
-			<span id="n"></span><br>
-			<span id="o"></span><br>
-			<span id="p"></span><br>
-			<span id="q"></span><br>
-			<span id="r"></span><br>
-			<span id="s"></span><br>
-			<span id="t"></span><br>
-			<span id="u"></span><br>
-			<span id="v"></span><br>
-			<span id="w"></span><br>
-			<span id="x"></span><br>
-			<span id="y"></span><br>
-			<span id="z"></span><br>
-		</form>
+		<table>
+			<tr>
+				<center>
+					<form>			
+						<input type="text" id="A"><br>
+						<span id="a"></span><br>
+				<span id="b"></span><br>
+				<span id="c"></span><br>
+				<span id="d"></span><br>
+				<span id="e"></span><br>
+				<span id="f"></span><br>
+				<span id="g"></span><br>
+				<span id="h"></span><br>
+				<span id="i"></span><br>
+				<span id="j"></span><br>
+				<span id="k"></span><br>
+				<span id="l"></span><br>
+				<span id="m"></span><br>
+				<span id="n"></span><br>
+				<span id="o"></span><br>
+				<span id="p"></span><br>
+				<span id="q"></span><br>
+				<span id="r"></span><br>
+				<span id="s"></span><br>
+				<span id="t"></span><br>
+				<span id="u"></span><br>
+				<span id="v"></span><br>
+				<span id="w"></span><br>
+				<span id="x"></span><br>
+				<span id="y"></span><br>
+				<span id="z"></span><br>
+			</form>
+			<script>
+				let A = document.getElementById('A');
+				document.addEventListener('keyup',function() { //この行を変更
+					var ar = parseInt(A.value) * 1 ;
+					document.getElementById('a').textContent = ar ;
+					var br = parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('b').textContent = br ;
+					var cr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('c').textContent = cr ;				
+					var dr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('d').textContent = dr ;
+					var er = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('e').textContent = er ;
+					var fr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('f').textContent = fr ;
+					var gr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('g').textContent = gr ;
+					var hr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('h').textContent = hr ;
+					var ir = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('i').textContent = ir ;
+					var jr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('j').textContent = jr ;
+					var kr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('k').textContent = kr ;
+					var lr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('l').textContent = lr ;
+					var mr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('m').textContent = mr ;
+					var nr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('n').textContent = nr ;
+					var or = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('o').textContent = or ;
+					var pr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('p').textContent = pr ;
+					var qr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('q').textContent = qr ;
+					var rr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('r').textContent = rr ;
+					var sr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('s').textContent = sr ;
+					var tr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('t').textContent = tr ;
+					var ur = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('u').textContent = ur ;
+					var vr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('v').textContent = vr ;
+					var wr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('w').textContent = wr ;
+					var xr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('x').textContent = xr ;
+					var yr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('y').textContent = yr ;
+					var zr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
+					document.getElementById('z').textContent = zr ;
+				});
+			</script>
 		</center>
-		<script>
-			let A = document.getElementById('A');
-			document.addEventListener('keyup',function() { //この行を変更
-				var ar = parseInt(A.value) * 1 ;
-				document.getElementById('a').textContent = ar ;
-				var br = parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('b').textContent = br ;
-				var cr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('c').textContent = cr ;
-				var dr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('d').textContent = dr ;
-				var er = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('e').textContent = er ;
-				var fr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('f').textContent = fr ;
-				var gr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('g').textContent = gr ;
-				var hr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('h').textContent = hr ;
-				var ir = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('i').textContent = ir ;
-				var jr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('j').textContent = jr ;
-				var kr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('k').textContent = kr ;
-				var lr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('l').textContent = lr ;
-				var mr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('m').textContent = mr ;
-				var nr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('n').textContent = nr ;
-				var or = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('o').textContent = or ;
-				var pr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('p').textContent = pr ;
-				var qr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('q').textContent = qr ;
-				var rr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('r').textContent = rr ;
-				var sr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('s').textContent = sr ;
-				var tr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('t').textContent = tr ;
-				var ur = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('u').textContent = ur ;
-				var vr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('v').textContent = vr ;
-				var wr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('w').textContent = wr ;
-				var xr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('x').textContent = xr ;
-				var yr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('y').textContent = yr ;
-				var zr = parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) * parseInt(A.value) ;
-				document.getElementById('z').textContent = zr ;
-			});
-		</script>
+			</tr>
+			<tr>
+				<center>
+					<pass id="random"></pass><br>
+					<input type="button" onclick="random" value="random">
+					
+				</center>
+			</tr>
 	</body>
 </html>
